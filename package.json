@@ -1,0 +1,71 @@
+{
+  "name": "test-contract",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@aa-sdk/core": "^4.0.0-beta.9",
+    "@alchemy/aa-accounts": "^3.19.0",
+    "@alchemy/aa-alchemy": "^3.19.0",
+    "@alchemy/aa-core": "^3.19.0",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@eth-optimism/core-utils": "^0.13.2",
+    "@mui/material": "^5.15.14",
+    "@tanstack/react-query": "^5.28.8",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.91",
+    "@types/react": "^18.2.69",
+    "@types/react-dom": "^18.2.22",
+    "@wormhole-foundation/sdk": "^0.6.5",
+    "alchemy-sdk": "^3.4.1",
+    "ethers": "^6.11.1",
+    "hardhat": "^2.22.9",
+    "is-ci": "^3.0.1",
+    "markdown-table": "^3.0.3",
+    "moment": "^2.30.1",
+    "path": "^0.12.7",
+    "prool": "^0.0.16",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "replace-in-file": "^8.1.0",
+    "typescript": "^4.9.5",
+    "viem": "^2.21.19",
+    "view": "^1.1.1",
+    "wagmi": "^2.5.12",
+    "web-vitals": "^2.1.4",
+    "web3": "^4.6.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "no-undef": "off",
+      "no-restricted-globals": "off",
+      "no-unused-vars": "off"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
